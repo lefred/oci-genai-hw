@@ -1,20 +1,28 @@
-# TITLE
+# OCI GenAI and MySQL HeatWave Demo
 
 [![License: UPL](https://img.shields.io/badge/license-UPL-green)](https://img.shields.io/badge/license-UPL-green) [![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=oracle-devrel_test)](https://sonarcloud.io/dashboard?id=oracle-devrel_test)
 
-## THIS IS A NEW, BLANK REPO THAT IS NOT READY FOR USE YET.  PLEASE CHECK BACK SOON!
 
 ## Introduction
-MISSING
+
+MySQL HeatWave supports VECTOR datatype and functions like STRING_TO_VECTOR() and VECTOR_DISTANCE() allowing you to store vectors from embeddings existing data stored in your DB System.
+
+The embeddings, prompt, and answer can be generated using the OCI GenAI service.
+
+The code proposed in this repository illustrates the blog post related to OCI GenAI, MySQL HeatWave Vector capabilities to query WordPress content.
+
 
 ## Getting Started
-MISSING
+
+You need to edit the code to provide the credentials to your 
 
 ### Prerequisites
-MISSING
 
-## Notes/Issues
-MISSING
+You need:
+* an OCI account
+* a MySQL HeatWave DB System 9.x
+* a compute instance or access to your DB System (bastion, LB, ...)
+* Python 3.9
 
 ## URLs
 * Nothing at this time
