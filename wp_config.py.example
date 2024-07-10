@@ -1,0 +1,16 @@
+COMPARTMENT = "<ENTER HERE THE GENAI COMPARTMENT ID>"
+CONFIG_FILE = "~/.oci/config"
+CONFIG_PROFILE = "DEFAULT"
+
+# Service endpoint
+# ENDPOINT = "https://inference.generativeai.eu-frankfurt-1.oci.oraclecloud.com"
+ENDPOINT = "https://inference.generativeai.us-chicago-1.oci.oraclecloud.com"
+
+DB_USER = "<YOUR DB USER ACCOUNT>"
+DB_PASSWORD = "<YOUR DB USER PASSWORD>"
+DB_HOST = "<YOUR DB HOST IP>"
+DB_PORT = 3306
+DB_SCHEMA = "<WORDPRESS SCHEMA>"
+
+# Not mandatory, only if you plan to use reranking
+COHERE_API_KEY = "<COHERE_API_KEY>"

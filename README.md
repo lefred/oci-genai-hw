@@ -14,7 +14,8 @@ The code proposed in this repository illustrates the blog post related to OCI Ge
 
 ## Getting Started
 
-You need to edit the code to provide the credentials to your 
+You need to edit the code to provide the credentials to your OCI account and
+MySQL HeatWave DB System.
 
 ### Prerequisites
 
@@ -22,8 +23,19 @@ You need:
 * an OCI account
 * a MySQL HeatWave DB System 9.x
 * a compute instance or access to your DB System (bastion, LB, ...)
-* Python 3.9
+* Python >= 3.9
 
+You also need to create a table to save your embeddings:
+
+```
+create table wp_embeddings (
+   id bigint unsigned auto_increment,
+   content varchar(4000), 
+   vec vector(1024), 
+   wp_post_id bigint unsigned, 
+   primary key(id)
+);
+```
 ## URLs
 * Nothing at this time
 
